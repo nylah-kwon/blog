@@ -1,29 +1,47 @@
+@font-face {
+    font-family: 'RixYeoljeongdo_Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2102-01@1.0/RixYeoljeongdo_Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 body{
   margin: 0;
+  background-color: #eeeeee;
+  font-family: 'NanumBarunGothic', sans-serif;
+  font-weight: Regular;
 }
 a {
-  color:black;
+  color: #123456;
   text-decoration: none;
 }
 h1 {
-  font-size: 45px;
-  text-align: center;
+  font-family: 'RixYeoljeongdo_Regular';
+  font-size: 35px;
   border-bottom: 1px solid gray;
   margin: 0;
   padding: 20px;
 }
-ol {
-  border-right: 1px solid gray;
-  width: 100px;
-  margin: 0;
-  padding: 20px;
+p {
+
 }
 #grid {
     display: grid;
     grid-template-columns: 150px 1fr;
+    height: 100vh;
 }
-#grid ol {
+#grid ul {
+  border-right: 1px solid gray;
+  width: 100px;
+  margin: 0;
+  padding: 20px;
   padding-left: 33px;
+  background-color: #123456;
+}
+#grid ul, ul a {
+  color: white;
+}
+#grid li {
+  padding-bottom: 10px;
 }
 #grid #article{
   padding-left: 20px;
