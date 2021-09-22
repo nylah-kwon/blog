@@ -17,12 +17,9 @@ a {
 h1 {
   font-family: 'RixYeoljeongdo_Regular';
   font-size: 35px;
-  border-bottom: 1px solid gray;
+  border-bottom: 2px solid #123456;
   margin: 0;
   padding: 20px;
-}
-p {
-
 }
 #grid {
     display: grid;
@@ -30,7 +27,6 @@ p {
     height: 100vh;
 }
 #grid ul {
-  border-right: 1px solid gray;
   width: 100px;
   margin: 0;
   padding: 20px;
@@ -51,7 +47,8 @@ p {
   #grid {
       display: block;
   }
-  ol {
+  #grid ul {
+    width: 100vh;
     border-right: none;
   }
   h1 {
