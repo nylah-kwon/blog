@@ -54,10 +54,6 @@ body{
   padding: 20px;
 }
 
-.main p {
-    
-}
-
 @media (max-width:800px) {
   .container {
     grid-template-columns: 1fr 80px 80px 80px;
@@ -65,14 +61,13 @@ body{
   .menu_img {
     display: inline;
   }
+  .menu_list {
+    display: none;
+  }
   .menu_img input {
     padding-top: 8px;
     display: block;
     margin: auto;
     width: 32px;
   }
-  .menu_list {
-    display: none;
-  }
-
 }
